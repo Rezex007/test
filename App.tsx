@@ -11,12 +11,12 @@ import {
   TrendingUp, 
   History
 } from 'lucide-react';
-import Dashboard from './pages/Dashboard';
-import Inventory from './pages/Inventory';
-import Payment from './pages/Payment';
-import EmailTrackingPage from './pages/EmailTracking';
-import EmailLogsPage from './pages/EmailLogs';
-import AccountLogsPage from './pages/AccountLogs';
+import Dashboard from './Dashboard';
+import Inventory from './Inventory';
+import Payment from './Payment';
+import EmailTrackingPage from './EmailTracking';
+import EmailLogsPage from './EmailLogs';
+import AccountLogsPage from './AccountLogs';
 import { AppState, InventoryItem, PaymentInfo, EmailTracking, EmailLog } from './types';
 
 const INITIAL_STATE: AppState = {
